@@ -1,0 +1,136 @@
+/*GENERAL */ 
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Raleway", "Sans serif";
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* MENU */
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.Lieninscription{
+  text-decoration: none;
+  font-weight: bold;
+  color: #0065FC;
+  padding-top: 20px;
+}
+
+.Liennav{
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+nav{
+    display:flex;
+    text-align: right;
+    height: 85px;
+    width: auto;
+    align-items: center;
+}
+
+nav a{
+    margin-right: 40px;
+    color: blue;
+}
+
+nav a:hover{
+  color: blue;
+  margin-right: 40px;
+  border-top: 2px solid #0065FC;
+}
+
+/* TOP */
+
+h1{
+  color: #0065FC;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Titres h2{
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.Titres p{
+  font-size: 15px;
+}
+
+/* SEARCH */
+
+.search{
+  width: 380px;
+  color: #0065FC;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.search input{
+  padding: 0px 10px;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  border-top: 1px solid grey;
+  border-right: none;
+  border-bottom: 1px solid grey;
+  border-left: none;
+}
+
+
+.Rechercher{
+  background-color: #0065FC;
+  border-width: 0px;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+}
+
+.Localisez{
+  height: 40px;
+  background-color: #dfdfdf;
+  width: 40px;
+  border-radius: 40px;
+  float: left;
+}
+
+.search .fas{
+  text-align: center;
+  line-height: 40px;
+  color: black;
+  display: block;
+  margin: auto;
+}
+
+/* FILTRES */
+
+.Filtres h2{
+  font-size: 25px
+}
+
+.Filtres{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.FiltreRecherche{
+  margin-left: 70px;
+  display: inline-block;
+}
