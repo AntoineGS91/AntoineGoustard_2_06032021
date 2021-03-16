@@ -4,10 +4,11 @@
 
 body {
   font-family: "Raleway", "Sans serif";
-  margin: 0;
   padding-left: 20px;
   padding-right: 20px;
-}
+  margin-left: 200px;
+  margin-right: 200px;
+  }
 
 /* MENU */
 
@@ -16,7 +17,6 @@ header{
   align-items: center;
   justify-content: flex-end;
   font-size: 20px;
-  margin-right: 25px;
 }
 
 .Lieninscription{
@@ -73,38 +73,16 @@ h1{
   width: 380px;
   color: #0065FC;
   padding-left: 10px;
-  border-radius: 10px;
-}
-
-.search input{
-  padding: 0px 10px;
-  width: 200px;
-  height: 40px;
-  font-size: 15px;
-  font-weight: 500;
-  border-top: 1px solid grey;
-  border-right: none;
-  border-bottom: 1px solid grey;
-  border-left: none;
-}
-
-
-.Rechercher{
-  background-color: #0065FC;
-  border-width: 0px;
-  color: white;
-  height: 40px;
-  width: 100px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  position: relative;
+  margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 .Localisez{
   height: 40px;
   background-color: #dfdfdf;
   width: 40px;
-  border-radius: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   float: left;
 }
 
@@ -116,21 +94,169 @@ h1{
   margin: auto;
 }
 
-/* FILTRES */
-
-.Filtres h2{
-  font-size: 25px
+.search input{
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  border-top: 1px solid #dfdfdf;
+  border-right: none;
+  border-bottom: 1px solid #dfdfdf;
+  border-left: none;
+  float: left;
 }
 
+.search input::placeholder{
+  padding-left: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.Rechercher{
+  background-color: #0065FC;
+  border-width: 0px;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Rechercher:hover{
+  cursor: pointer;
+}
+
+/* FILTRES */
+
 .Filtres{
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.Filtres a{
+  color: black;
+}
+
+.Filtres a:hover{
+  color: #0065FC;
+}
+
+.Filtres h2{
+  font-size: 20px;
+  float: left;
 }
 
 .FiltreRecherche{
-  margin-left: 70px;
+  margin-left: 20px;
   display: inline-block;
+  justify-items: center;
+  height: 50px;
+  border: 1px solid #d4d4d4;
+  border-radius: 30px;
+  padding-right: 20px;
+
+}
+.Filtres .fas{
+  text-align: center;
+  line-height: 50px;
+  color: #0065FC;
+  display: block;
+  margin: auto;
+}
+
+.ImgFiltre{
+  height: 50px;
+  background-color: #c4dcfc;
+  width: 50px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  float: left;
+}
+
+.NomFiltre{
+  float: right;
+  line-height: 50px;
+  padding-left: 15px;
+}
+
+.Info{
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.whitecircle{
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border: 1px solid grey;
+  border-radius: 13px;
+}
+
+.Info .fas{
+  text-align: center;
+  line-height: 25px;
+  color: #0065FC;
+  display: block;
+  margin: auto;
+}
+
+.Info p{
+  padding-left: 15px;
+}
+
+/* HEBERGEMENTS MARSEILLE */
+
+.ContenuPrincipal{
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+
+/* HEBERGEMENTS MARSEILLE */
+
+.HebergementMarseille{
+  background-color: #f5f5f5;
+  height: 500px;
+  width: 60%;
+  border-radius: 20px;
+  padding-left: 30px;
+}
+
+.HebergementMarseille p{
+  font-weight: bold;
+}
+
+.HebergementMarseille p:first-child{
+  font-size: 30px;
+}
+
+/* HEBERGEMENTS MARSEILLE */
+
+
+.LesPlusPopulaires{
+  height: 500px;
+  width: 30%;
+  background-color: #f5f5f5;
+  margin-left: 10%;
+  border-radius: 20px;
+}
+
+
+/* FOOTER */
+
+.Footer{
+  background-color: #dfdfdf;
+  height: 250px;
+}
+
+.Footer .tableau{
+  margin-left: 200px;
 }
