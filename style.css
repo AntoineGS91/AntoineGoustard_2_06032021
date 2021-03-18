@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
+
 body {
   font-family: "Raleway", "Sans serif";
   padding-left: 20px;
@@ -45,8 +46,6 @@ nav a{
 }
 
 nav a:hover{
-  color: blue;
-  margin-right: 40px;
   border-top: 2px solid #0065FC;
 }
 
@@ -216,28 +215,28 @@ h1{
 
 .ContenuPrincipal{
   display: flex;
-  height: 600px;
+  height: 550px;
   width: 100%;
-  padding-bottom: 15px;
+  margin-bottom: 60px;
 }
 
 /* HEBERGEMENTS MARSEILLE */
 
 .HebergementMarseille{
-  background-color: grey;
+  background-color: #f5f5f5;
   height: 550px;
   width: 60%;
   border-radius: 20px;
   padding-left: 40px;
-  display: inline-block;
-  padding-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .HebergementMarseille p{
   font-weight: bold;
 }
 
-.HebergementMarseille p:first-child{
+.HebergementMarseille h2{
   font-size: 20px;
   padding-top: 10px;
 }
@@ -246,40 +245,139 @@ h1{
   border-radius: 10px;
   height: 174px;
   width: 244px;
-  background-color: white;
   display: inline-block;
   margin-right: 35px;
-  margin-bottom: 30px;
+  background-color: white;
 }
-
-.PhotoHebergements img{
-  height: 170px;
-  width: 240px;
-  border-radius: 10px;
-  margin-left: 2px;
-  margin-top: 2px;
-}
-
 
 /* LES PLUS POPULAIRES */
 
-
 .LesPlusPopulaires{
   height: 550px;
-  width: 30%;
+  width: 37%;
   background-color: #f5f5f5;
-  margin-left: 10%;
+  margin-left: 3%;
   border-radius: 20px;
+  padding-left: 25px;
 }
 
+.ResultatsPopulaires{
+  height: 440px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 20px 30px 20px 5px;
+}
+
+.Rp{
+  height: 130px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.Rp img{
+  height: 120px;
+  width: 33%;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* ACTIVITES A MARSEILLE */
+
+.PortMarseille{
+  width: 100%;
+  height: 625px;
+}
+
+.PortMarseille h3{
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+}
+
+.PortMarseille img{
+  height: 200px;
+  width: 100%;
+  image-rendering: -webkit-optimize-contrast;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px grey;
+}
+
+.ImagesActivity{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.SimpleImage{
+  width: 22%;
+}
+
+.SimpleImage img{
+  height: 500px;
+  width: 100%;
+}
+
+.DoubleImage{
+  width: 22%;
+}
+
+.DoubleImage img{
+  height: 180px;
+  width: 100%;
+}
+
+.Overlay{
+  background-color: white;
+  height:50px;
+  width: auto;
+  top: 500px;
+  position: relative;
+  z-index: 1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.DoubleImage .Overlay{
+  top: 180px;
+  box-shadow: 0 1px 5px grey;
+}
 
 /* FOOTER */
 
-.clear{
-  clear: both;
+.Footer{
+  background-color: #f5f5f5;
+  height: 200px;
+  margin-bottom: 40px;
 }
 
-.Footer{
-  background-color: #dfdfdf;
-  height: 250px;
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  width: 90%;
+  height: 200px;
+}
+
+.grid-container div{
+  height: 200px;
+  width: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 30px;
+}
+
+.grid-container h6{
+  margin-left: 30px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.grid-container p{
+  margin-left: 30px;
+  font-size: 15px;
+  margin-top: -5px;
 }
