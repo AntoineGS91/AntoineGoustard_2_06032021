@@ -1,0 +1,204 @@
+@media only screen and (max-device-width:425px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+/* TOP */
+
+    .Titres{
+      margin-left: 20px;
+    }
+
+    .logo{
+      position: relative;
+      top: -75px;
+      left: 25px;
+    }
+
+    .Lieninscription{
+      position: relative;
+      top: -15px;
+      right: 25px;
+    }
+
+/* MENU */
+
+    header{
+      width: 100%;
+      height: 125px;
+    }
+
+    nav{
+      position: relative;
+      top: 50px;
+      left: 90px;
+      width: 100%;
+    }
+
+    nav a{
+      width: 210px;
+      margin: 0;
+      border: none;
+    }
+
+    nav a:hover{
+      border: none;
+      border-bottom: 3px solid #0065FC;
+    }
+
+    .Liennav{
+      margin-top: 40px;
+      padding: 30px;
+      margin-right: 0px;
+      border-bottom: 3px solid #e6e6e6;
+      padding-bottom: 20px;
+    }
+
+
+/* SEARCH */
+
+    .search{
+      margin-left: 20px;
+    }
+
+/* FILTRES */
+  
+    .Filtres h2{
+      margin-left: 20px;
+    }
+
+    .filters-names{
+      margin-top: 0px;
+    }
+
+    .FiltreRecherche{
+      margin-bottom: 7.5px;
+    }
+    .Info{
+      margin-left: 10px;
+    }
+
+/* MAIN */
+
+    main{
+      width: 100%;
+      height: 1900px;
+    }
+
+    .LesPlusPopulaires{
+      width: 100%;
+      height: 500px;
+      border-radius: 0;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    .LesPlusPopulaires h2{
+      padding-left: 15px   
+    }
+
+    .ResultatsPopulaires{
+      padding: 0;
+      margin-left: 20px;
+      margin-right: 20px;
+      height: 415px;
+    }
+
+    .Rp img{
+      image-rendering: -webkit-optimize-contrast;
+    }
+
+    .HebergementMarseille{
+      width: 100%;
+      margin-top: 10px;
+      background-color: white;
+    }
+
+    .Hebergement{
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .HebergementMarseille p{
+      position: relative;
+      top: 840px;
+      margin-left: 20px;
+    }
+
+    .Hosting{
+      width: 100%;
+      margin-bottom: 15px;
+      margin-right: 20px;
+    }
+
+    .HostingOverlay p{
+      position: relative;
+      top: 0;
+      display: block;
+      margin-left: 0;
+      margin-top: 4px;
+    }
+
+    .HostingOverlay .Stars{
+      position: relative;
+      top: 0;
+      margin-top: 0px;
+    }
+
+    .ContenuPrincipal{
+      display: flex;
+      flex-direction: column-reverse;
+      height: 1075px;
+    }
+
+    .PortMarseille{
+      flex-direction: column-reverse;
+      position: relative;
+      top:830px;
+      margin-left: 20px;
+    }
+
+    .ImagesActivity{
+      width: 90%;
+      flex-direction: column;
+    }
+
+    .ImagesActivity img{
+      height: 200px;
+    }
+
+    .SimpleImage{
+      width: 100%;
+    }
+
+    .DoubleImage{
+      width: 100%;
+    }
+
+    .Overlay{
+      top: 200px;
+    }
+
+/* FOOTER */
+
+    .Footer{
+      width: 100%;
+      height: 450px;
+      position: relative;
+      top: 1625px;
+    }
+  
+    .grid-container{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+  
+    .grid-container div{
+      margin: 0;
+      margin-bottom: -60px;
+    }
+  }
+  

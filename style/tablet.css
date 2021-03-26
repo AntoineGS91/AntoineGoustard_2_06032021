@@ -1,0 +1,150 @@
+@media only screen and (min-device-width:426px) and (max-width: 1024px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+/* TOP */
+
+    .logo{
+    margin-left: 30px;
+    }
+
+    header{
+        margin-right: 30px;
+    }
+
+    nav a{
+        width: 125px;
+        padding-bottom: 20px;
+    }
+
+    nav a:hover{
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+      }
+
+    .Lieninscription{
+        margin-top: -20px;
+    }
+
+    .Titres{
+        margin-left: 20px;
+    }
+
+/* SEARCH */
+
+    .search{
+        margin-bottom: 10px;
+        margin-left: 25%;
+    }
+
+/* FILTRES */
+
+    .Filtres{
+        margin-left: 20px;
+    }
+
+    .Info{
+        margin-left: 30px;
+    }
+
+/* MAIN */
+
+    main{
+        width: 99%;
+        height: 1000px;
+    }
+
+    .ContenuPrincipal{
+        flex-flow:column nowrap;
+        width: 100%;
+        height: 1250px;
+    }
+
+    .LesPlusPopulaires{
+        padding-right: 20px;
+        margin: 0;
+        width: 95%;
+        position: relative;
+        top: -550px;
+        border-radius: 0;
+        height: 425px;
+    }
+
+    .ResultatsPopulaires{
+        flex-direction: row;
+        width: 100%;
+        margin-right: 20px;
+        height: 425px;
+    }
+
+    .HebergementMarseille{
+        position: relative;
+        top: 450px;
+        border-radius: 0;
+        width: 100%;
+        background-color: white;
+    }
+    
+    .Hebergements{
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 450px;
+    }
+
+    .HebergementMarseille p{
+        margin-left: 20px;
+    }
+
+    .Hosting p{
+        margin-left: 0;
+    }
+
+    .Rp{
+        border-radius: 30px;
+        margin: 0;
+        height: 300px;
+    }
+
+    .Rp img{
+        width: 200px;
+        height: 200px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+    }
+
+/* ACTIVITES A MARSEILLE */
+
+    .PortMarseille{
+        position: relative;
+        top: -250px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 2000px;
+    }
+
+    .ImagesActivity{
+        flex-direction: row;
+        height: 2000px;
+    }
+
+    .ImagesActivity img{
+        width: 300px;
+        height: 500px;
+    }
+
+/* FOOTER */
+
+    .Footer{
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: 850px;
+    }
+
+}

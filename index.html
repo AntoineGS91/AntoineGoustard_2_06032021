@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
-        <html lang="fr">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style/style.css" />
+        <link rel="stylesheet" href="style/phone.css" />
+        <link rel="stylesheet" href="style/tablet.css" />
         <script src="https://kit.fontawesome.com/d609f0219c.js" crossorigin="anonymous"></script>
-        <link rel="icon" type="image" href="Ressources/images/logo/Reservia.svg" />
         <title>Reservia</title> 
     </head>
     <body>
@@ -22,7 +22,7 @@
 
 
         <!--    TOP     -->
-            <a href="index.html"><img src="Ressources/images/logo/Reservia.svg" alt="Logo Reservia"/></a>
+            <a class="logo" href="index.html"><img src="Ressources/images/logo/Reservia.svg" alt="Logo Reservia"/></a>
             <div class="Titres">
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre ville ou en pleine nature</p>
@@ -38,21 +38,23 @@
         <!--    FILTRES     -->
         <div class="Filtres">
             <h2>Filtres</h2>
-            <div class="FiltreRecherche"><a href="#">
-                <div class="ImgFiltre"><i class="fas fa-money-bill-wave"></i></div>
-                <div class="NomFiltre">Economique</div></a>
-            </div>
-            <div class="FiltreRecherche"><a href="#">
-                <div class="ImgFiltre"><i class="fas fa-child"></i></div>
-                <div class="NomFiltre">Familial</div></a>
-            </div>
-            <div class="FiltreRecherche"><a href="#">
-                <div class="ImgFiltre"><i class="fas fa-heart"></i></div>
-                <div class="NomFiltre">Romantique</div></a>
-            </div>
-            <div class="FiltreRecherche"><a href="#">
-                <div class="ImgFiltre"><i class="fas fa-dog"></i></div>
-                <div class="NomFiltre">Animaux autorisés</div></a>
+            <div class="filters-names">
+                <div class="FiltreRecherche"><a href="#">
+                    <div class="ImgFiltre"><i class="fas fa-money-bill-wave"></i></div>
+                    <div class="NomFiltre">Economique</div></a>
+                </div>
+                <div class="FiltreRecherche"><a href="#">
+                    <div class="ImgFiltre"><i class="fas fa-child"></i></div>
+                    <div class="NomFiltre">Familial</div></a>
+                </div>
+                <div class="FiltreRecherche"><a href="#">
+                    <div class="ImgFiltre"><i class="fas fa-heart"></i></div>
+                    <div class="NomFiltre">Romantique</div></a>
+                </div>
+                <div class="FiltreRecherche"><a href="#">
+                    <div class="ImgFiltre"><i class="fas fa-dog"></i></div>
+                    <div class="NomFiltre">Animaux autorisés</div></a>
+                </div>
             </div>
         </div>
         <div class="Info">
@@ -71,7 +73,7 @@
                     <h2>Hébergement à Marseille</h2>
                     <div class="Hebergements">
                         <div class="Hosting"><a href="">
-                            <img src="Ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                            <img src="Ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image de l'hébergement">
                             <div class="HostingOverlay">
                                 <h6>Auberge la Cannebière</h6>
                                 <p>Nuit à partir de <strong>25€</strong></p>
@@ -89,7 +91,7 @@
                             </div>
                         </a></div>
                         <div class="Hosting"><a href="">
-                            <img src="Ressources/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                            <img src="Ressources/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Image de l'hébergement">
                             <div class="HostingOverlay">
                                 <h6>Hôtel du port</h6>
                                 <p>Nuit à partir de <strong>52€</strong></p>
@@ -105,7 +107,7 @@
                             </div>
                         </a></div>
                         <div class="Hosting"><a href="">
-                            <img src="Ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                            <img src="Ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Image de l'hébergement">
                             <div class="HostingOverlay">
                                 <h6>Hôtel Les mouettes</h6>
                                 <p>Nuit à partir de <strong>76€</strong></p>
@@ -123,7 +125,7 @@
                             </div>
                         </a></div>
                         <div class="Hosting"><a href="">
-                            <img src="Ressources/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                            <img src="Ressources/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Image de l'hébergement">
                             <div class="HostingOverlay">
                                 <h6>Hôtel de la mer</h6>
                                 <p>Nuit à partir de <strong>46€</strong></p>
@@ -141,7 +143,7 @@
                             </div>
                         </a></div>
                         <div class="Hosting"><a href="">
-                            <img src="Ressources/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                            <img src="Ressources/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Image de l'hébergement">
                             <div class="HostingOverlay">
                                 <h6>Auberge Le Panier</h6>
                                 <p>Nuit à partir de <strong>23€</strong></p>
@@ -159,7 +161,7 @@
                             </div>
                         </a></div>
                         <div class="Hosting"><a href="">
-                            <img src="Ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                            <img src="Ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Image de l'hébergement">
                             <div class="HostingOverlay">
                                 <h6>Hôtel chez Amina</h6>
                                 <p>Nuit à partir de <strong>96€</strong></p>
@@ -185,16 +187,13 @@
                     </div>
                     <div class="ResultatsPopulaires">
                         <div class="Rp">
-                            <img src="Ressources/images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
-                            <div></div>
+                            <img src="Ressources/images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Image de l'hébergement">
                         </div>
                         <div class="Rp">
-                            <img src="Ressources/images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg">
-                            <div></div>
+                            <img src="Ressources/images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Image de l'hébergement">
                         </div>
                         <div class="Rp">
-                            <img src="Ressources/images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
-                            <div></div>
+                            <img src="Ressources/images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Image de l'hébergement">
                         </div>
                     </div>
                 </article>
