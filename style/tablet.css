@@ -148,3 +148,30 @@
     }
 
 }
+
+
+
+
+
+
+
+
+.activite {
+    background-color: orange;
+    margin-right:15px;
+    padding: 1em;
+  }
+  
+  .activite:nth-child(3n+1){
+    background-color:lime;
+    height:100%;
+  }
+  .activite:nth-child(3n+2){
+    background-color:blue;
+    height: 100px;
+  }
+  .activite:nth-child(3n+3){
+    background-color:blue;
+    height: 100px;
+  }
+  
