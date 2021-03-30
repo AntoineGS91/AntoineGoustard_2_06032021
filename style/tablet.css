@@ -26,28 +26,28 @@
         color: #0065FC;
       }
 
-    .Lieninscription{
+    .lien-inscription{
         margin-top: -20px;
     }
 
-    .Titres{
+    .titres{
         margin-left: 20px;
     }
 
 /* SEARCH */
 
-    .search{
+    .rechercher{
         margin-bottom: 10px;
         margin-left: 25%;
     }
 
 /* FILTRES */
 
-    .Filtres{
+    .filtres{
         margin-left: 20px;
     }
 
-    .Info{
+    .info{
         margin-left: 30px;
     }
 
@@ -58,13 +58,13 @@
         height: 1000px;
     }
 
-    .ContenuPrincipal{
+    .contenu-principal{
         flex-flow:column nowrap;
         width: 100%;
         height: 1250px;
     }
 
-    .LesPlusPopulaires{
+    .populaire-hebergement{
         padding-right: 20px;
         margin: 0;
         width: 95%;
@@ -74,14 +74,14 @@
         height: 425px;
     }
 
-    .ResultatsPopulaires{
+    .populaire-resultat{
         flex-direction: row;
         width: 100%;
         margin-right: 20px;
         height: 425px;
     }
 
-    .HebergementMarseille{
+    .hebergement{
         position: relative;
         top: 450px;
         border-radius: 0;
@@ -89,28 +89,28 @@
         background-color: white;
     }
     
-    .Hebergements{
+    .hebergement-marseille{
         display: flex;
         flex-flow: row wrap;
         width: 100%;
         height: 450px;
     }
 
-    .HebergementMarseille p{
+    .hebergement p{
         margin-left: 20px;
     }
 
-    .Hosting p{
+    .hebergement-element p{
         margin-left: 0;
     }
 
-    .Rp{
+    .populaire-element{
         border-radius: 30px;
         margin: 0;
         height: 300px;
     }
 
-    .Rp img{
+    .populaire-element img{
         width: 200px;
         height: 200px;
         border-top-left-radius: 30px;
@@ -120,7 +120,7 @@
 
 /* ACTIVITES A MARSEILLE */
 
-    .PortMarseille{
+    .activites-marseille{
         position: relative;
         top: -250px;
         margin-left: 20px;
@@ -128,19 +128,19 @@
         height: 2000px;
     }
 
-    .ImagesActivity{
+    .activites-resultats{
         flex-direction: row;
         height: 2000px;
     }
 
-    .ImagesActivity img{
+    .activites-resultats img{
         width: 300px;
         height: 500px;
     }
 
 /* FOOTER */
 
-    .Footer{
+    .footer{
         width: 100%;
         height: 200px;
         position: relative;
