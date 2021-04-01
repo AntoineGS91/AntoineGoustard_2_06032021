@@ -1,4 +1,9 @@
-Fonctionnalités
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+
+
+##Fonctionnalités
 
 
 Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
@@ -8,11 +13,8 @@ Les filtres ne seront pas fonctionnels pour cette version, en revanche, il faut 
 
 Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
  
-
-
-
-Contraintes 
-
+ 
+##Contraintes 
 
 Je te fournis deux maquettes : l’une desktop et l’autre mobile. Le site devra également être adapté aux tablettes. Sur ce support, tu es libre de faire les adaptations nécessaires avec la mise en page, tant qu’aucun élément n’est coupé et que le texte a une taille suffisante. Je te laisse choisir les breakpoints appropriés.
 
