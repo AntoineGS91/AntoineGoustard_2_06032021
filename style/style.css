@@ -20,18 +20,6 @@ header{
   font-size: 20px;
 }
 
-.lien-inscription{
-  text-decoration: none;
-  font-weight: bold;
-  color: #0065FC;
-  padding-top: 50px;
-}
-
-.lien-nav{
-  text-decoration: none;
-  padding-top: 50px;
-}
-
 nav{
     display:flex;
     text-align: right;
@@ -52,17 +40,23 @@ nav a:hover{
   color: #0065FC;
 }
 
-/* TOP */
+.lien-nav{
+  text-decoration: none;
+  padding-top: 50px;
+}
+
+.lien-inscription{
+  text-decoration: none;
+  font-weight: bold;
+  color: #0065FC;
+  padding-top: 50px;
+}
+
+/* HEADER */
 
 .logo{
   position: relative;
   top: -30px;
-}
-
-h1{
-  color: #0065FC;
-  font-weight: bold;
-  font-style: italic;
 }
 
 .titres h2{
@@ -74,7 +68,13 @@ h1{
   font-size: 15px;
 }
 
-/* SEARCH */
+h1{
+  color: #0065FC;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* RECHERCHE */
 
 .rechercher{
   width: 380px;
@@ -353,6 +353,11 @@ h1{
   top: 15px;
 }
 
+.populaire-texte a{
+  text-decoration: none;
+  color: black;
+}
+
 .populaire-texte h6{
   font-size: 15px;
   margin: 0;
@@ -465,6 +470,11 @@ h1{
   height: 400px;
   margin-right: 30px;
   display: block;
+}
+
+.activites-element a{
+  text-decoration: none;
+  color: black;
 }
 
 .second .activites-texte, .cinquieme .activites-texte{
