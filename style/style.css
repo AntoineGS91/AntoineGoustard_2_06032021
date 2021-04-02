@@ -344,10 +344,11 @@ h1{
   height: 130px;
   background-color: white;
   border-radius: 20px;
+  display: block;
 }
 
 .populaire-texte{
-  padding-left: 225px;
+  margin-left: 245px;
   position: relative;
   top: 15px;
 }
@@ -355,7 +356,7 @@ h1{
 .populaire-texte h6{
   font-size: 15px;
   margin: 0;
-  width: 50%;
+  width: 150px;
 }
 
 .populaire-texte p{

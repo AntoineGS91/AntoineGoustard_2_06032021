@@ -81,14 +81,34 @@
         height: 425px;
     }
 
+    .populaire-texte{
+        margin: 0;
+        top: 190px;
+        margin-left: 20px;
+    }
+
+    .populaire-texte h6{
+       width: 150px;
+    }
+
     .populaire-element{
+        border-radius: 30px;
+        margin: 0;
+        height: 300px;        
         padding: 0;
         width: 30%;
     }
 
     .populaire-element img{
-        top: -70%;
+        width: 99%;
+        height: 175px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        top: -99px;
+        left: 1px;
     }
+
 
     .hebergement{
         position: relative;
@@ -114,19 +134,6 @@
         padding-left: 15px;
     }
 
-    .populaire-element{
-        border-radius: 30px;
-        margin: 0;
-        height: 300px;
-    }
-
-    .populaire-element img{
-        width: 200px;
-        height: 200px;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        border-bottom-left-radius: 0;
-    }
 
 /* ACTIVITES A MARSEILLE */
 

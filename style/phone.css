@@ -99,18 +99,24 @@
       margin-right: 20px;
       height: 415px;
     }
-
+    
     .populaire-element img{
       image-rendering: -webkit-optimize-contrast;
+      width: 45%;
+      height: 124px;
+      top: -99px;
     }
 
     .populaire-texte{ 
-      padding-left: 50%;
-      width: 100%;
+      margin-left: 190px;
     }
 
     .populaire-texte p{ 
       margin: 5 0 10 0
+    }
+
+    .populaire-texte h6{ 
+      width: 150px;
     }
 
     .hebergement{
@@ -228,4 +234,3 @@
       margin-bottom: -60px;
     }
   }
-  
