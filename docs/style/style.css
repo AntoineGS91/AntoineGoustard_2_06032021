@@ -6,8 +6,7 @@ body {
   font-family: "Raleway", "Sans serif";
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
+
   }
 
 /* MENU */
@@ -347,7 +346,7 @@ h1{
 }
 
 .populaire-texte{
-  margin-left: 245px;
+  margin-left: 45%;
   position: relative;
   top: 15px;
 }
@@ -397,11 +396,9 @@ h1{
 /* ACTIVITES A MARSEILLE */
 
 .activites-marseille{
-  width: 100%;
   height: 600px;
   margin-bottom: 35px;
   margin-top: -40px;
-  margin-left: 10px;
 }
 
 .activites-marseille h3{

@@ -67,7 +67,7 @@
     .populaire-hebergement{
         padding-right: 20px;
         margin: 0;
-        width: 95%;
+        width: 94%;
         position: relative;
         top: -550px;
         border-radius: 0;
@@ -76,7 +76,7 @@
 
     .populaire-resultat{
         flex-direction: row;
-        width: 100%;
+        width: 95%;
         margin-right: 20px;
         height: 425px;
     }
@@ -140,17 +140,14 @@
     .activites-marseille{
         position: relative;
         top: -250px;
-        margin-left: 20px;
-        margin-right: 20px;
         height: 1000px;
     }
 
     .activites-resultats{
         display: flex;
-        width: 768px;
         flex-flow: row wrap;
         height: 1000px;
-        margin: 0;
+        margin: auto;
     }
 
     .activites-element img{

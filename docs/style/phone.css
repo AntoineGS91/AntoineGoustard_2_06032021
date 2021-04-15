@@ -23,6 +23,20 @@
       right: 25px;
     }
 
+/* SEARCH */
+
+.rechercher{
+  width: 85%;
+}
+
+.rechercher input{
+  width: 150px;
+}
+
+.rechercher-boutton{
+  width: 25%;
+}
+
 /* MENU */
 
     header{
@@ -33,7 +47,7 @@
     nav{
       position: relative;
       top: 50px;
-      left: 90px;
+      left: 85px;
       width: 100%;
     }
 
@@ -95,7 +109,6 @@
     .populaire-resultat{
       padding: 0;
       margin-bottom: 5px;
-      margin-left: 20px;
       margin-right: 20px;
       height: 415px;
     }
@@ -178,14 +191,12 @@
       top:830px;
       margin-left: 20px;
       margin-right: 20px;
-      width: 100%;
     }
 
     .activites-resultats{
       display: flex;
       width: 100%;
       flex-direction: column;
-      margin-right: 20px;
     }
 
     .activites-resultats img{
@@ -213,6 +224,7 @@
     .activites-texte{
       top: 250px;
     }
+
 
 /* FOOTER */
 
