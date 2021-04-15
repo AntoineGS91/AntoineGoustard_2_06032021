@@ -1,4 +1,4 @@
-@media only screen and (max-device-width:425px){
+@media screen and (max-width:479px){
     body{
         width: 100%;
         margin: 0;
